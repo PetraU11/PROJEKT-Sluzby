@@ -1,0 +1,250 @@
+
+*, :after, :before { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    background-color: #FAFAFA;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    text-align: center;
+    margin-top:60px;
+    margin-bottom:60px;
+    margin-left:20px;
+    margin-right:20px; 
+}
+
+h1 {font-size: 28px;
+    color:#000000;}
+
+h2 {font-size:16px;
+    color:#000000;
+    margin-bottom: 15px;
+    margin-top:0;}
+
+p {font-size:16px;
+    color: #8B8B8B;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+
+/* Happy Travels */
+
+
+.cestovatel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:40px;
+    max-width: 350px;
+    
+}
+
+hr {
+border: 2px solid #407BFF;
+max-width: 60px;
+margin-top: 10px;
+margin-bottom: 30px;
+}
+
+.tlacitka { margin-top: 30px;
+margin-bottom: 60px; 
+
+}
+
+.tlacitko {
+background-color:  #8B8B8B; 
+border: none;
+color: #FFFFFF;
+padding: 10px 30px;
+text-decoration: none;
+font-size: 14px;
+border-radius: 20px;
+max-height: 40px;
+margin-left: auto;
+margin-right: auto; 
+}
+
+.tlacitko.jedna { background-color:#407BFF;   
+max-width:195px;
+}
+
+.tlacitko.dve {
+    max-width: 222px;
+}
+
+
+/* Služby cestovní kanceláře */
+/* Služby delegátů */
+
+.ctvrty,
+.sesty {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.ctvrty div,
+.sesty div { 
+    display:flex;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px #407BFF1F;
+
+}
+
+
+.ctvrty img,
+.sesty img {
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+}
+
+.ctvrty p,
+.sesty p {
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+
+/* nad 640px */
+
+@media screen and (min-width: 640px) {
+
+ .tlacitko { 
+    display:inline-block;
+        }
+        
+
+.tlacitko.jedna { 
+    margin-right: 20px;
+}
+
+.ctvrty,
+.sesty {
+    display:flex;
+    margin-top: 40px;
+    margin-bottom: 80px;
+
+}
+
+.ctvrty div,
+.sesty div { 
+    display:inline-block;
+    width: calc(100% / 3);
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.kaktus,
+.slunecnik {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.ctvrty img,
+.sesty img {
+    padding-left: 95px;
+    padding-right: 95px;
+    padding-top: 40px ;
+    
+}
+
+.ctvrty p,
+.sesty p {
+    padding-top: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+}
+
+
+@media screen and (min-width: 1100px) {
+
+main {max-width: 1040px;
+    margin: 60px auto;
+ }
+
+article {display:flex;
+justify-content:center;
+align-items:center;}
+
+/* Happy Travels */
+
+.prvni,
+.treti
+{order:1; 
+}
+
+.prvni {
+    width:490px;
+}
+
+.cestovatel {
+    margin:auto;
+    max-width: 425px;  
+    
+}
+
+.druhy {
+    width: 490px;
+    margin-right: 60px;
+    text-align: left;
+    padding-top: 60px;
+}
+
+.druhy hr {
+    margin-left:0; 
+}
+
+.druhy h1  {
+    margin-bottom: 0;
+}
+
+/* Služby cestovní kanceláře */
+/* Služby delegátů */
+
+.prostredni {
+    margin-top:80px;
+    margin-bottom:80px;
+}
+.treti,
+.paty {text-align: left;}
+
+.treti {margin-left: 60px;}
+.paty {margin-right: 60px;}
+
+.ctvrty {
+width: 550px;
+margin:0; }
+
+.sesty {
+width: 550px;
+margin:0;
+}
+
+.ctvrty img,
+.sesty img {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 40px ;
+    
+}
+
+}
+
+
+
+
+
+
+
